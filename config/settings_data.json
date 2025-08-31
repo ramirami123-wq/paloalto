@@ -51,7 +51,7 @@
     "product_grid_hover_animation": "slide",
     "cutline_color": "body",
     "variants_style": "auto",
-    "atc_show_product_price": true,
+    "atc_show_product_price": false,
     "quick_buy": "quick_buy",
     "quick_buy_image_layout": "small",
     "show_labels": true,
