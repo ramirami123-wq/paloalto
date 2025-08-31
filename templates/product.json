@@ -22,11 +22,10 @@
             "padding_bottom": 20
           }
         },
-        "inventory_countdown": {
-          "type": "inventory_countdown",
+        "custom_code_4MgjFn": {
+          "type": "custom_code",
           "settings": {
-            "max_inventory": 10,
-            "hide_inventory_count": true,
+            "custom_code": "<div style=\"max-width:760px;margin:28px auto;padding:26px 22px;text-align:center;\n            background:#fff6f6;border:1.5px solid #f3b5b5;border-radius:10px;\n            font-family:'Poppins',Arial,sans-serif;\">\n  <div style=\"font-size:20px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;\n              color:#c81e1e;margin-bottom:10px;\">\n    🎁 Buy 4 Charms & Get the Necklace FREE!\n  </div>\n  <p style=\"font-size:16px;line-height:1.6;color:#333;margin:0;\">\n    Add any <strong>4 charms</strong> to your cart — the <strong>necklace becomes FREE</strong>.\n    Offer applied automatically at checkout.\n  </p>\n</div>",
             "padding_bottom": 20
           }
         },
@@ -40,10 +39,27 @@
             "padding_bottom": 20
           }
         },
+        "custom_code_XfYnNJ": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>",
+            "padding_bottom": 20
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
             "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "⚒️ | Materials",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
+            "accordion_page": "",
+            "padding_bottom": 10
           }
         },
         "icon_row_LecKdd": {
@@ -68,16 +84,6 @@
             "alignment": "left",
             "bg_color": "#ffffff",
             "padding_bottom": 20
-          }
-        },
-        "product_accordion": {
-          "type": "product_accordion",
-          "settings": {
-            "accordion_heading": "Materials and specs",
-            "heading_style": "font-body",
-            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
-            "accordion_page": "",
-            "padding_bottom": 10
           }
         },
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
@@ -106,11 +112,12 @@
       },
       "block_order": [
         "title",
-        "inventory_countdown",
+        "custom_code_4MgjFn",
         "form",
+        "custom_code_XfYnNJ",
         "description",
-        "icon_row_LecKdd",
         "product_accordion",
+        "icon_row_LecKdd",
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9"
       ],
