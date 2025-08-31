@@ -61,7 +61,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "sticky_header": false,
+        "sticky_header": true,
         "header_border": true,
         "link_hover_effect": "dot",
         "logo_not_home": "shopify://shop_images/CHARMCLUB-removebg-preview.png",
