@@ -174,17 +174,10 @@
     "section-countdown-0": {
       "type": "section-countdown",
       "blocks": {
-        "section-countdown-0-block-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Countdown is on</p>",
-            "size": 75
-          }
-        },
         "section-countdown-0-block-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Shop Before It Ends</p>",
+            "text": "<p>Summer Sale Ends In</p>",
             "size": 120,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -194,8 +187,8 @@
         "section-countdown-0-block-2": {
           "type": "timer",
           "settings": {
-            "end_date": "2024-12-31",
-            "end_time": "11:59",
+            "end_date": "2025-9-02",
+            "end_time": "0",
             "period": "am",
             "end_message": "",
             "size": 115,
@@ -203,28 +196,11 @@
             "bg_opacity": 100,
             "text_color": "text-dark"
           }
-        },
-        "section-countdown-0-block-3": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Shop the sale",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--black",
-            "button_1_style": "btn--text",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
         }
       },
       "block_order": [
-        "section-countdown-0-block-0",
         "section-countdown-0-block-1",
-        "section-countdown-0-block-2",
-        "section-countdown-0-block-3"
+        "section-countdown-0-block-2"
       ],
       "settings": {
         "layout_style": "inline",
