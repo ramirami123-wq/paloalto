@@ -114,6 +114,16 @@
             "padding_bottom": 20
           }
         },
+        "product_accordion_968TNY": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "⚒️ | Materials",
+            "heading_style": "font-body",
+            "accordion_text": "<p>The <em>CharmClub</em> necklace is crafted from <strong>premium stainless steel</strong> with a polished silver finish, built to <strong>resist tarnishing</strong> and last through <em>daily wear</em>.</p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
         "custom_code_FHeHka": {
           "type": "custom_code",
           "settings": {
@@ -159,6 +169,7 @@
         "text_DKyezi",
         "custom_code_thWYW6",
         "form_BTLfjb",
+        "product_accordion_968TNY",
         "custom_code_FHeHka",
         "description_g4Rjte",
         "icon_row_Vp44Ti"
