@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -8,7 +17,7 @@
         "announcement-0": {
           "type": "text",
           "settings": {
-            "text": "<p>New customers save 10% with code WELCOME10</p>",
+            "text": "<p>FREE DELIVERY FOR ORDERS ABOVE 30$</p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -29,6 +38,7 @@
         "announcement-0"
       ],
       "settings": {
+        "width": "wrapper--full",
         "layout": "marquee",
         "show_top_border": false,
         "show_bottom_border": true,
@@ -42,80 +52,20 @@
         "text_size": 125,
         "letter_spacing": 0,
         "message_spacing": 25,
-        "bg_color": "#ffffff",
+        "bg_color": "#9e132b",
         "gradient": "",
-        "color": "#000000",
+        "color": "#ffffff",
         "border_color": "#000000"
       }
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "image-0": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image_second_menu": false,
-            "aspect_ratio": 1,
-            "wide_image": false,
-            "title": "",
-            "heading_size": 100,
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image_second_menu": false,
-            "aspect_ratio": 1,
-            "wide_image": false,
-            "title": "",
-            "heading_size": 100,
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image_second_menu": false,
-            "aspect_ratio": 1,
-            "wide_image": false,
-            "title": "",
-            "heading_size": 100,
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "position": "1",
-            "image_second_menu": false,
-            "aspect_ratio": 1,
-            "wide_image": false,
-            "title": "",
-            "heading_size": 100,
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image-0",
-        "image-1",
-        "image-2",
-        "image-3"
-      ],
       "settings": {
         "sticky_header": false,
         "header_border": true,
         "link_hover_effect": "dot",
-        "logo_not_home": "{{ shop.brand.logo }}",
-        "logo_max_width": 100,
+        "logo_not_home": "shopify://shop_images/CHARMCLUB-removebg-preview.png",
+        "logo_max_width": 70,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
         "show_images": false,
@@ -123,6 +73,8 @@
         "menu_alignment": "left",
         "header_icons_as_text": false,
         "highlight_item": "Sale",
+        "enable_custom_badge": false,
+        "custom_badge_text": "10% OFF",
         "highlight_item_color": "#d02e2e",
         "header_transparent": false,
         "header_text_color": "white",

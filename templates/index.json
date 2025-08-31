@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "section-slideshow-0": {
@@ -6,6 +15,7 @@
         "section-slideshow-0-block-0": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/H67392dd8adaa4bbe8d59a8650375f233c_1.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "center",
@@ -31,45 +41,15 @@
             "video_text": "",
             "video_link": ""
           }
-        },
-        "section-slideshow-0-block-1": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "narrow",
-            "text_position": "left",
-            "text_alignment": "text-center",
-            "text_color": "text-light",
-            "subheading": "Introducing",
-            "title": "<p>Welcome to <em>Palo Alto</em></p>",
-            "heading_highlight_type": "underline-hand-drawn",
-            "highlight_color": "#ffffff",
-            "highlight_text_color": "#ffffff",
-            "text": "Add more info or delete this text",
-            "stacked_button": true,
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--primary",
-            "button_1_style": "btn--solid",
-            "button_1_size": "btn--large",
-            "button_2_text": "Learn More",
-            "button_2_link": "",
-            "button_2_color": "btn--secondary",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
         }
       },
       "block_order": [
-        "section-slideshow-0-block-0",
-        "section-slideshow-0-block-1"
+        "section-slideshow-0-block-0"
       ],
       "settings": {
-        "slide_height": "seven-fifty-height",
+        "slide_height": "original-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "seven-fifty-height-mobile",
+        "mobile_slide_height": "original-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
@@ -909,9 +889,9 @@
             "product": "",
             "position_x_desktop": 31,
             "position_y_desktop": 41,
-            "info_bubbles_position_desktop": 55,
             "position_x_mobile": 21,
             "position_y_mobile": 42,
+            "info_bubbles_position_desktop": 55,
             "info_bubbles_position_mobile": 5
           }
         },
@@ -921,9 +901,9 @@
             "product": "",
             "position_x_desktop": 69,
             "position_y_desktop": 46,
-            "info_bubbles_position_desktop": 5,
             "position_x_mobile": 75,
             "position_y_mobile": 45,
+            "info_bubbles_position_desktop": 5,
             "info_bubbles_position_mobile": 30
           }
         },
@@ -933,9 +913,9 @@
             "product": "",
             "position_x_desktop": 43,
             "position_y_desktop": 70,
-            "info_bubbles_position_desktop": 25,
             "position_x_mobile": 39,
             "position_y_mobile": 66,
+            "info_bubbles_position_desktop": 25,
             "info_bubbles_position_mobile": 25
           }
         }
