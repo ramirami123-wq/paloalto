@@ -22,6 +22,30 @@
             "padding_bottom": 20
           }
         },
+        "text_cqmDRm": {
+          "type": "text",
+          "settings": {
+            "title": "<p>💎 <strong>Premium Quality</strong> – Made with durable, lasting materials</p>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
+        "text_cJreJA": {
+          "type": "text",
+          "settings": {
+            "title": "<p>🌸 <strong>Customizable</strong> – Add charms that tell your story</p>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
+        "text_wFwPtn": {
+          "type": "text",
+          "settings": {
+            "title": "<p>🌍 <strong>Trendy Style</strong> – Matches any outfit, casual or chic</p>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
         "custom_code_4MgjFn": {
           "type": "custom_code",
           "settings": {
@@ -112,6 +136,9 @@
       },
       "block_order": [
         "title",
+        "text_cqmDRm",
+        "text_cJreJA",
+        "text_wFwPtn",
         "custom_code_4MgjFn",
         "form",
         "custom_code_XfYnNJ",
