@@ -49,7 +49,7 @@
       "settings": {
         "slide_height": "original-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "original-height-mobile",
+        "mobile_slide_height": "three-quarters-height-mobile",
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
@@ -57,9 +57,86 @@
         "duration": 4,
         "transition": "zoom-out",
         "enable_zoom_animation": true,
-        "enable_card_scrolling": true,
+        "enable_card_scrolling": false,
         "increase_border_radius": true,
         "heading_size": 160
+      }
+    },
+    "section_product_Up7mdQ": {
+      "type": "section-product",
+      "blocks": {
+        "title_fMWfeJ": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "form_BTLfjb": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "description_g4Rjte": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_Vp44Ti": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Free shipping",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Free Returns",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "1% Donated Annually",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_fMWfeJ",
+        "form_BTLfjb",
+        "description_g4Rjte",
+        "icon_row_Vp44Ti"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "necklace",
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "hide_product_thumbnails": false,
+        "product_image_aspect_ratio": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section-countdown-0": {
@@ -1132,6 +1209,7 @@
   },
   "order": [
     "section-slideshow-0",
+    "section_product_Up7mdQ",
     "section-countdown-0",
     "section-text-0",
     "section-grid-0",
