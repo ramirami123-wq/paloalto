@@ -431,22 +431,22 @@
         "text_4hyV9d": {
           "type": "text",
           "settings": {
-            "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+            "title": "What CharmClub made of?",
+            "text": "<p>The CharmClub necklace is crafted from <strong>premium stainless steel</strong> with a polished silver finish, built to <strong>resist tarnishing</strong> and last through <em>daily wear</em>.</p>"
           }
         },
         "text_XQEPUY": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+            "title": "Will the necklace fit both men and women?",
+            "text": "<p>Yes! The design is <strong>unisex</strong>  making it perfect for <strong>anyone</strong> who wants to carry their <em>faith with style</em>.</p>"
           }
         },
         "text_4FBBrD": {
           "type": "text",
           "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+            "title": "When will I receive my order?",
+            "text": "<p>Orders usually take between 2-4 Days</p>"
           }
         }
       },
