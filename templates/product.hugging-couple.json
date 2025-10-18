@@ -120,6 +120,7 @@
         },
         "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "accordion_heading": "Shipping and returns",
             "heading_style": "font-body",
@@ -239,6 +240,7 @@
     },
     "section_collection_QKiRjR": {
       "type": "section-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "frontpage",
