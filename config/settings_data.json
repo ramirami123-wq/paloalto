@@ -70,6 +70,7 @@
     "enable_gift_notes": false,
     "empty_cart_message": "",
     "empty_cart_buttons": "",
+    "message": "",
     "free_shipping_limit": "30",
     "cart_custom_message_text": "",
     "cart_custom_message_color": "text-dark",
