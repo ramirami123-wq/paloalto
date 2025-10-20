@@ -337,9 +337,9 @@
         "text_size": 120,
         "letter_spacing": 0,
         "message_spacing": 10,
-        "bg_color": "#9e132b",
+        "bg_color": "#c5a572",
         "gradient": "",
-        "color": "#ffffff",
+        "color": "#000000",
         "border_color": "#000000",
         "padding_top": 60,
         "padding_bottom": 60

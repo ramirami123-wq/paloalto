@@ -37,7 +37,7 @@
     "button_size": 80,
     "button_letter_spacing": 75,
     "button_caps": true,
-    "primary_buttons_color": "#9e132b",
+    "primary_buttons_color": "#c5a572",
     "secondary_buttons_color": "#ffffff",
     "content_alignment": "left",
     "heading_style": "font-heading",
