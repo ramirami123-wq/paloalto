@@ -120,7 +120,14 @@
     "checkout_accent_color": "#edb3f2",
     "checkout_button_color": "#fbcaff",
     "checkout_error_color": "#d02e2e",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Vibrant": {
