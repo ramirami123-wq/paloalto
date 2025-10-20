@@ -28,7 +28,7 @@
             "highlight_text_color": "#ffffff",
             "text": "",
             "stacked_button": false,
-            "button_1_text": "Shop All",
+            "button_1_text": "",
             "button_1_link": "shopify://collections/all",
             "button_1_color": "btn--primary",
             "button_1_style": "btn--solid",
