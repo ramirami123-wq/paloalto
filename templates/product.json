@@ -118,16 +118,6 @@
             "padding_bottom": 20
           }
         },
-        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
-          "type": "product_accordion",
-          "settings": {
-            "accordion_heading": "Shipping and returns",
-            "heading_style": "font-body",
-            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
-            "accordion_page": "",
-            "padding_bottom": 10
-          }
-        },
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
           "type": "feature",
           "disabled": true,
@@ -154,7 +144,6 @@
         "description",
         "product_accordion",
         "icon_row_LecKdd",
-        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
         "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9"
       ],
       "settings": {
