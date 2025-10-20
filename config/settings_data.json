@@ -68,6 +68,7 @@
     "cart_icon": "bag",
     "enable_cart_notes": false,
     "enable_gift_notes": false,
+    "empty_cart_message": "",
     "empty_cart_buttons": "",
     "free_shipping_limit": "30",
     "cart_custom_message_text": "",
