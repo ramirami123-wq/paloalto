@@ -96,6 +96,13 @@
             "padding_bottom": 20
           }
         },
+        "text_c4NDgi": {
+          "type": "text",
+          "settings": {
+            "title": "<h6>✨ Gold Plated Jewelry</h6>",
+            "padding_bottom": 20
+          }
+        },
         "custom_code_thWYW6": {
           "type": "custom_code",
           "disabled": true,
@@ -168,6 +175,7 @@
         "text_MFWpFN",
         "text_N7TjAX",
         "text_DKyezi",
+        "text_c4NDgi",
         "custom_code_thWYW6",
         "form_BTLfjb",
         "product_accordion_968TNY",
