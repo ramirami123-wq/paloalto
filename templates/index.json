@@ -218,7 +218,7 @@
         "section-countdown-0-block-2": {
           "type": "timer",
           "settings": {
-            "end_date": "2025-10-20",
+            "end_date": "2025-11-02",
             "end_time": "11",
             "period": "pm",
             "end_message": "",
@@ -427,6 +427,32 @@
         "padding_bottom": 60
       }
     },
+    "17619215473b692359": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_7r3GNP": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_7r3GNP"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_accordions_LjzFhA": {
       "type": "section-accordions",
       "blocks": {
@@ -475,32 +501,6 @@
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
         "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "17619215473b692359": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_7r3GNP": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_7r3GNP"
-      ],
-      "settings": {
-        "bg_color": "",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
