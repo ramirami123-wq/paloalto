@@ -208,7 +208,7 @@
         "section-countdown-0-block-1": {
           "type": "heading",
           "settings": {
-            "text": "<p>Summer Sale Ends In</p>",
+            "text": "<p>Black FridaySale Ends In</p>",
             "size": 120,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -218,7 +218,7 @@
         "section-countdown-0-block-2": {
           "type": "timer",
           "settings": {
-            "end_date": "2025-11-02",
+            "end_date": "2025-11-21",
             "end_time": "11",
             "period": "pm",
             "end_message": "",
