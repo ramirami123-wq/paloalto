@@ -218,7 +218,7 @@
         "section-countdown-0-block-2": {
           "type": "timer",
           "settings": {
-            "end_date": "2025-11-21",
+            "end_date": "2025-11-29",
             "end_time": "11",
             "period": "pm",
             "end_message": "",
