@@ -75,6 +75,13 @@
             "padding_bottom": 20
           }
         },
+        "text_c4NDgi": {
+          "type": "text",
+          "settings": {
+            "title": "<p>✨ <strong>18k Gold-Plated & Waterproof</strong> – Keeps its shine and color even with daily wear</p>",
+            "padding_bottom": 20
+          }
+        },
         "text_MFWpFN": {
           "type": "text",
           "settings": {
@@ -93,13 +100,6 @@
           "type": "text",
           "settings": {
             "title": "<p>🌍 <strong>Trendy Style</strong> – Matches any outfit, casual or chic</p>",
-            "padding_bottom": 20
-          }
-        },
-        "text_c4NDgi": {
-          "type": "text",
-          "settings": {
-            "title": "<h6>✨ Gold Plated Jewelry</h6>",
             "padding_bottom": 20
           }
         },
@@ -172,10 +172,10 @@
       },
       "block_order": [
         "title_fMWfeJ",
+        "text_c4NDgi",
         "text_MFWpFN",
         "text_N7TjAX",
         "text_DKyezi",
-        "text_c4NDgi",
         "custom_code_thWYW6",
         "form_BTLfjb",
         "product_accordion_968TNY",
@@ -429,23 +429,6 @@
     },
     "17619215473b692359": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_7r3GNP": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_7r3GNP"
-      ],
       "settings": {
         "bg_color": "",
         "width": "wrapper",
