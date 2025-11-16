@@ -130,7 +130,7 @@
       "error_no_product": "No upsell product selected",
       "pair_products": "Buy It With",
       "quick_view": "Quick Buy",
-      "add_to_cart": "Add to Cart →"
+      "add_to_cart": "Add to Bag →"
     },
     "complementary": {
       "products_title": "Pairs well with",
@@ -522,7 +522,7 @@
       "unavailable": "Unavailable",
       "compare_at": "Compare at",
       "quantity": "Quantity",
-      "add_to_cart": "Add to Cart →",
+      "add_to_cart": "Add to Bag →",
       "buy_it_now": "Buy it now",
       "in_stock": "Item is in stock",
       "out_of_stock": "Item is out of stock",
