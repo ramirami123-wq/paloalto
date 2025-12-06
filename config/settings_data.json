@@ -129,12 +129,7 @@
       },
       "8605505498557855500": {
         "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
-        "disabled": false,
-        "settings": {}
-      },
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
