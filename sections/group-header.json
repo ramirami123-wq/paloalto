@@ -72,10 +72,10 @@
         "text_size": 125,
         "letter_spacing": 0,
         "message_spacing": 25,
-        "bg_color": "#c5a572",
+        "bg_color": "#ff1649",
         "gradient": "",
-        "color": "#000000",
-        "border_color": "#000000"
+        "color": "#ffffff",
+        "border_color": "#ffffff"
       }
     },
     "header": {
