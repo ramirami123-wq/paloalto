@@ -218,7 +218,7 @@
         "section-countdown-0-block-2": {
           "type": "timer",
           "settings": {
-            "end_date": "2025-12-29",
+            "end_date": "2026-1-1",
             "end_time": "11",
             "period": "pm",
             "end_message": "",
@@ -248,6 +248,51 @@
         "width": "wrapper--full",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "section_marquee_ttGphy": {
+      "type": "section-marquee",
+      "blocks": {
+        "text_wfwLf4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHRISTMAS OFFER ENDING SOON🧑‍🎄</p>",
+            "text_color": "",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_wfwLf4"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#ff1649",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section-collection-0": {
@@ -485,51 +530,6 @@
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_marquee_ttGphy": {
-      "type": "section-marquee",
-      "blocks": {
-        "text_wfwLf4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CHRISTMAS OFFER ENDING SOON🧑‍🎄</p>",
-            "text_color": "",
-            "heading_highlight_type": "underline-hand-drawn",
-            "highlight_color": "#000",
-            "highlight_text_color": "",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_wfwLf4"
-      ],
-      "name": "Marquee",
-      "settings": {
-        "layout": "marquee",
-        "show_top_border": false,
-        "show_bottom_border": false,
-        "padding": 10,
-        "marquee_speed": 100,
-        "direction": "ticker-ltr",
-        "slider_speed": 7,
-        "show_arrows": false,
-        "text_caps": false,
-        "type_style": "subheading-text",
-        "text_size": 120,
-        "letter_spacing": 0,
-        "message_spacing": 10,
-        "bg_color": "#ff1649",
-        "gradient": "",
-        "color": "#ffffff",
-        "border_color": "#ffffff",
         "padding_top": 60,
         "padding_bottom": 60
       }
