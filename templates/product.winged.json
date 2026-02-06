@@ -29,27 +29,17 @@
             "padding_bottom": 20
           }
         },
-        "text_cqmDRm": {
-          "type": "text",
+        "custom_code_jLzpRy": {
+          "type": "custom_code",
           "settings": {
-            "title": "<p>💎 <strong>Premium Quality</strong> – Made with durable, lasting materials</p>",
-            "text_alignment": "left",
+            "custom_code": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#ff85d0;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>",
             "padding_bottom": 20
           }
         },
-        "text_cJreJA": {
-          "type": "text",
+        "custom_code_dbyGfF": {
+          "type": "custom_code",
           "settings": {
-            "title": "<p>🌸 <strong>Customizable</strong> – Add charms that tell your story</p>",
-            "text_alignment": "left",
-            "padding_bottom": 20
-          }
-        },
-        "text_wFwPtn": {
-          "type": "text",
-          "settings": {
-            "title": "<p>🌍 <strong>Trendy Style</strong> – Matches any outfit, casual or chic</p>",
-            "text_alignment": "left",
+            "custom_code": "<span style=\"font-weight:700;\">⏱ Fast Application —</span> A complete winged-liner look in under 10 seconds.\n<br>\n<span style=\"font-weight:700;\">🎯 Perfect Symmetry —</span> Both eyes match effortlessly, every time.\n<br>\n<span style=\"font-weight:700;\">💧 Smudge-Resistant —</span> Stays flawless through heat, sweat, and long days.",
             "padding_bottom": 20
           }
         },
@@ -64,8 +54,8 @@
         "form": {
           "type": "form",
           "settings": {
-            "show_labels": true,
-            "show_quantity": true,
+            "show_labels": false,
+            "show_quantity": false,
             "show_payment_button": false,
             "enable_subscriptions_selectors": true,
             "padding_bottom": 20
@@ -135,9 +125,8 @@
       "block_order": [
         "custom_code_R7dwFX",
         "title",
-        "text_cqmDRm",
-        "text_cJreJA",
-        "text_wFwPtn",
+        "custom_code_jLzpRy",
+        "custom_code_dbyGfF",
         "custom_code_4MgjFn",
         "form",
         "custom_code_XfYnNJ",
