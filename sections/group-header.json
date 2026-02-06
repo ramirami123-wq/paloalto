@@ -36,7 +36,7 @@
         "text_4WweKd": {
           "type": "text",
           "settings": {
-            "text": "<p>30% CHRISTMAS OFFER🎁</p>",
+            "text": "<p>30% VALENTINE OFFER🎁</p>",
             "text_color": "",
             "heading_highlight_type": "underline-hand-drawn",
             "highlight_color": "#000000",
@@ -84,7 +84,7 @@
         "sticky_header": true,
         "header_border": true,
         "link_hover_effect": "dot",
-        "logo_not_home": "shopify://shop_images/Untitled_design_20.png",
+        "logo_not_home": "shopify://shop_images/CHARMCLUB__3_-removebg-preview_1.png",
         "logo_max_width": 140,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
