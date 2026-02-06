@@ -61,7 +61,7 @@
         "enable_greyscale": false,
         "bottom_menu": "",
         "color_text": "#000000",
-        "color_bg": "#c5a572",
+        "color_bg": "#ff27ae",
         "color_border": "#000000",
         "show_locale_selector": false,
         "show_country_selector": true,
