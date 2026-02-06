@@ -24,7 +24,7 @@
           "settings": {
             "subheading": "none",
             "title_size": 100,
-            "price_size": 100,
+            "price_size": 70,
             "bold_price": false,
             "padding_bottom": 20
           }
