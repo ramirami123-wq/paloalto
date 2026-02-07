@@ -55,7 +55,7 @@
           "type": "form",
           "settings": {
             "show_labels": false,
-            "show_quantity": true,
+            "show_quantity": false,
             "show_payment_button": false,
             "enable_subscriptions_selectors": true,
             "padding_bottom": 20
